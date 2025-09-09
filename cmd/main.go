@@ -1,7 +1,9 @@
 package main
 
-import "gorm_test_proj/internal"
+import (
+	"gorm_test_proj/internal/server"
+)
 
 func main() {
-	internal.Init()
+	server.Init()
 }
